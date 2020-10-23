@@ -4,7 +4,7 @@
 
     <!--查询用户名和密码-->
     <select id="findByUsernameAndPassword" resultType="com.star.entity.User">
-        select * from myblog.t_user
+        select * from blog.t_user
         where username = #{username} and password = #{password};
     </select>
 

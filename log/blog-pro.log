@@ -420,3 +420,19 @@ Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (usi
 2020-05-14 15:17:46.538  INFO 15724 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on DESKTOP-5QO2IGL with PID 15724 (started by OneStar in E:\MyBlog\myblog)
 2020-05-14 15:17:46.540  INFO 15724 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
 2020-05-14 15:17:58.087  INFO 15724 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 12.508 seconds (JVM running for 15.42)
+2020-10-23 10:41:23.732  INFO 10440 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PS20190718DUXA with PID 10440 (E:\idea\myblog-mybatis\target\classes started by Admin in E:\idea\myblog-mybatis)
+2020-10-23 10:41:23.736  INFO 10440 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2020-10-23 10:41:26.672 ERROR 10440 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
